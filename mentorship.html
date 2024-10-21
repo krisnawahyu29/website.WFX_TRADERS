@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="id"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="styles.css"> 
+  <title>Wahy_Fx - Trading Website</title> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #05161A, #072E33, #0B6F72, #0D969C, #6DA7BD);
+    color: white;
+}
+
+.header {
+    background-image: url('https://lh3.googleusercontent.com/pw/AP1GczP8Iguj_ZNajNTzg0aXEsUUtWtNAlbT1dhPtwVzZ5-Wq9PWWwDhMkPyelXoOBgcsA4R-aO4S-jENibGuKYiNv-F1X3uz4CrCI1ZtMFELleXg8xtX1Q=w2400');
+    background-size: cover; /* Menyesuaikan gambar agar menutupi seluruh area */
+    padding: 20px;
+    text-align: center;
+}
+
+.welcome-text h1 {
+    margin: 0;
+}
+
+.welcome-text h2 {
+    margin: 0;
+}
+
+.indicator-header {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: white;
+}
+
+.trading-concepts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.concept {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.concept img {
+    width: 100%;
+    height: auto;
+}
+
+.banner {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.white-link {
+    color: white;
+    text-decoration: none;
+}
+
+.white-link:hover {
+    text-decoration: underline;
+}
+
+/* Navigasi PDF */
+.navigation-section {
+    padding: 20px;
+}
+
+.pdf-navigation {
+    text-align: left;
+}
+
+.pdf-link {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background: #ff4500;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #4b0082;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: none;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: black;
+}</style></head> 
+ <body> 
+  <header class="header"> 
+   <div class="welcome-text"> 
+    <h1>Welcome to Wahy_Fx website</h1> 
+    <h2 id="typing"></h2> 
+   </div> 
+  </header> 
+  <main> 
+   <section class="trading-concepts"> 
+    <p class="indicator-header">Tersedia Indikator:</p> 
+    <div class="concept"> 
+     <h3>1. Liquidity Concept</h3> 
+     <div class="banner"> 
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczNiBx_1l683vABaC0cU6-ibx0bIGbJmTXgqJFO9DP6djYphs64z0Vseo2p92K4nUSN1TE7AN0c_3chc9o6Ro9N7SickRnfuXws2nNfiYPcxokneDp0=w2400" alt="Banner untuk Liquidity Concept" style="width: 400px; height: auto;"> 
+     </div> <a class="white-link" href="https://www.tradingview.com/script/9WWJ0z8B-Liquidity-Concepts-Wahy-fx/" target="_blank">Luncurkan di TradingView</a> 
+    </div> 
+    <div class="concept"> 
+     <h3>2. Killzones</h3> 
+     <div class="banner"> 
+      <img src="https://lh3.googleusercontent.com/pw/AP1GczNybGl8hFZQVQtgGXc39NEw6mTCqedtWFWbgM3sVHZrYSNqzYY_hO-tOk9qJC88AcI3416fja1ZuWz4pwaRMsNtYgASx_Q_7mZyAYC5hFQNHFEOp8s=w2400" alt="Banner untuk Killzones" style="width: 400px; height: auto;"> 
+     </div> <a class="white-link" href="https://www.tradingview.com/script/FxogP4Z6-Killzones-by-Wahy-fx/" target="_blank">Luncurkan di TradingView</a> 
+    </div> 
+   </section> <!-- Navigasi PDF --> 
+   <section class="navigation-section"> 
+    <nav class="pdf-navigation"> 
+     <h3>Unduh PDF</h3> <a href="https://drive.google.com/file/d/18ddFgPO4cJXXKN0a11osPcBZmUFd4BBb/view?usp=drivesdk" class="pdf-link">ICT A+ London</a> <a href="https://drive.google.com/file/d/19TEZvinpHdwZmna2WggF0abXQcB7wrJ-/view?usp=drivesdk" class="pdf-link">Quarterly Theory</a> <a href="https://drive.google.com/file/d/1E73qCjEJdPi1EYZumNFbEVVZuh3rWcG1/view?usp=drivesdk" class="pdf-link">OHLC/OLCH (PO3)</a> <a href="https://drive.google.com/file/d/18_QKl0HIDS2KGuSFxvpmlxb4APb5-EyA/view?usp=drivesdk" class="pdf-link">BPR ICT</a> 
+    </nav> 
+   </section> 
+  </main> <button class="scroll-to-top" onclick="scrollToTop()">Ke Atas</button> 
+  <footer class="footer"> 
+   <p>© 2024 Wahy_Fx. Semua Hak Dilindungi.</p> 
+  </footer> 
+  <script src="script.js"></script> 
+ 
+<script type="text/javascript" id="dcoder_script">const typingText = "Membantu Anda dalam Perdagangan Forex";
+const typingElement = document.getElementById("typing");
+let index = 0;
+
+function type() {
+    if (index < typingText.length) {
+        typingElement.innerHTML += typingText.charAt(index);
+        index++;
+        setTimeout(type, 100);
+    }
+}
+
+window.onload = () => {
+    type();
+    window.addEventListener("scroll", () => {
+        const scrollToTopButton = document.querySelector(".scroll-to-top");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopButton.style.display = "block";
+        } else {
+            scrollToTopButton.style.display = "none";
+        }
+    });
+};
+
+function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}</script></body></html>
